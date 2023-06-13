@@ -1,4 +1,8 @@
 return {
+  plugins = {
+    "AstroNvim/astrocommunity",
+    { import = "astrocommunity.pack.typescript" }
+  },
   -- Configure AstroNvim updates
   updater = {
     remote = "origin",     -- remote to use
