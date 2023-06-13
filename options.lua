@@ -10,11 +10,11 @@ return {
   },
   g = {
     mapleader = " ", -- sets vim.g.mapleader
-    autoformat_enabled = true, -- enable or disable auto formatting at start (lsp.formatting.format_on_save must be enabled)
+    autoformat_enabled = true, -- enable/disable auto formatting at start (reqs lsp.formatting.format_on_save to be on)
     cmp_enabled = true, -- enable completion at start
     autopairs_enabled = true, -- enable autopairs at start
-    diagnostics_mode = 3, -- set the visibility of diagnostics in the UI (0=off, 1=only show in status line, 2=virtual text off, 3=all on)
-    icons_enabled = true, -- disable icons in the UI (disable if no nerd font is available, requires :PackerSync after changing)
+    diagnostics_mode = 3, -- set diagnostics visibility in UI (0=off, 1=status line only, 2=virtual text off, 3=all on)
+    icons_enabled = true, -- disable icons in UI (disable if no nerd font avail, requires :PackerSync after changing)
     ui_notifications_enabled = true, -- disable notifications when toggling UI elements
   },
 }
