@@ -6,6 +6,7 @@ return {
 
   { import = "astrocommunity.pack.typescript" },
   { import = "astrocommunity.pack.lua" },
+  { import = "astrocommunity.git.git-blame-nvim" },
   -- { import = "astrocommunity.colorscheme.catppuccin" },
   -- { import = "astrocommunity.completion.copilot-lua-cmp" },
 }
